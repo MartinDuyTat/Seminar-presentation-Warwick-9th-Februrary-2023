@@ -1,0 +1,13 @@
+#!/bin/bash
+f=Seminar_presentation_Warwick_9th_Februrary_2023.tex
+if pdflatex $f
+then
+  cd fgraph
+  MPFILES=`ls *.mp`
+  for MP in ${MPFILES}; do
+    mpost ${MP}
+  done
+  cd ..
+  pdflatex $f
+fi
+rm *.aux *.log *.nav *.out *.snm *.toc *vrb
