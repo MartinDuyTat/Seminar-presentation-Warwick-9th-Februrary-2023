@@ -59,7 +59,7 @@
 \usepackage{overpic}
 
 % Here's where the presentation starts, with the info for the title slide
-\title[$B^\pm\to(K^+K^-\pi^+\pi^-)_Dh^\pm$]{Model-independent determination of the CKM angle \texorpdfstring{$\gamma$}{gamma} in \texorpdfstring{$B^\pm\to(K^+K^-\pi^+\pi^-)_Dh^\pm$}{B to K+K-pi+pi-} decays}
+\title[$B^\pm\to{[K^+K^-\pi^+\pi^-]}_Dh^\pm$]{Model independent measurement of the CKM angle \texorpdfstring{$\gamma$}{gamma} with \texorpdfstring{$B^\pm\to[K^+K^-\pi^+\pi^-]_Dh^\pm$}{B2DhD2KKpipi} at LHCb and BESIII}
 
 \author{Martin Tat}
 \institute[University of Oxford]{\normalsize University of Oxford\\ \vspace{0.3cm}\normalsize Warwick EPP Seminar}
@@ -351,8 +351,8 @@
   \end{itemize}
   \vspace{-0.3cm}
   \begin{center}
-    $\mathcal{A}(B^-)\propto\mathcal{A}(D^0) + r_Be^{i(\delta_B - \gamma)}\mathcal{A}(\bar{D^0})$ \\
-    $\mathcal{A}(B^+)\propto\mathcal{A}(\bar{D^0}) + r_Be^{i(\delta_B + \gamma)}\mathcal{A}(D^0)$ \\
+    $\mathcal{A}(B^-)=\mathcal{A}_B\Big(\mathcal{A}_{D^0} + r_Be^{i(\delta_B - \gamma)}\mathcal{A}_{\bar{D^0}}\Big)$ \\
+    $\mathcal{A}(B^+)=\mathcal{A}_B\Big(\mathcal{A}_{\bar{D^0}} + r_Be^{i(\delta_B + \gamma)}\mathcal{A}_{D^0}\Big)$ \\
   \end{center}
   \vspace{-0.3cm}
   \begin{itemize}
@@ -363,7 +363,7 @@
 \begin{frame}[fragile]{$D$ decays to a $C\!P$ eigenstate}
   \begin{center}
     A well known strategy is to consider $D$ decays to a $C\!P$ eigenstate\\~\\
-    For $C\!P$ eigenstates, $\mathcal{A}(D^0) = \mathcal{A}(\bar{D^0})$
+    For $C\!P$ eigenstates, $\mathcal{A}_{D^0} = \mathcal{A}_{\bar{D^0}}$
   \end{center}
   \begin{equation*}
     \begin{tikzcd}[column sep=huge]
@@ -373,7 +373,7 @@
     \end{tikzcd}
   \end{equation*}
   \begin{equation*}
-    \lvert\mathcal{A}(B^-)\lvert^2\propto\lvert\mathcal{A}(D^0)\lvert^2\Big(1 + r_B^2 + 2r_B\cos(\delta_B - \gamma)\Big)
+    \lvert\mathcal{A}(B^-)\lvert^2\propto1 + r_B^2 + 2r_B\cos(\delta_B - \gamma)
   \end{equation*}
 \end{frame}
 
@@ -403,7 +403,7 @@
 \begin{frame}[fragile]{Doubly Suppressed Cabbibo $D$ decays}
   \begin{center}
     Can we enhance the interference effects?\\~\\
-    Yes! Use a Doubly Suppressed Cabbibo decay: $\mathcal{A}(D^0) = r_De^{i\delta_D}\mathcal{A}(\bar{D^0})$
+    Yes! Use a Doubly Suppressed Cabbibo decay: $\mathcal{A}_{D^0} = r_De^{i\delta_D}\mathcal{A}_{\bar{D^0}}$
   \end{center}
   \begin{equation*}
     \begin{tikzcd}[column sep=huge]
@@ -413,7 +413,7 @@
     \end{tikzcd}
   \end{equation*}
   \begin{equation*}
-    \lvert\mathcal{A}(B^-)\lvert^2\propto\lvert\mathcal{A}(D^0)\lvert^2\Big(r_D^2 + r_B^2 + 2r_Br_D\cos(\delta_B - \gamma + \delta_D)\Big)
+    \lvert\mathcal{A}(B^-)\lvert^2\propto r_D^2 + r_B^2 + 2r_Br_D\cos(\delta_B - \gamma + \delta_D)
   \end{equation*}
 \end{frame}
 
@@ -562,7 +562,7 @@
   \end{equation*}
   \vspace{-0.5cm}
   \begin{equation*}
-    \lvert\mathcal{A}(B^-)\lvert^2\propto\lvert\mathcal{A}(D^0)\lvert^2\Big(1 + r_B^2r_D^2(\Phi) + 2r_Br_D(\Phi)\cos(\delta_B - \gamma + \delta_D(\Phi))\Big)
+    \lvert\mathcal{A}(B^-)\lvert^2\propto1 + r_B^2r_D^2(\Phi) + 2r_Br_D(\Phi)\cos(\delta_B - \gamma + \delta_D(\Phi))
   \end{equation*}
 \end{frame}
 
@@ -666,7 +666,7 @@
     \Large Our final equation, which relates the $C\!P$ observables to experimentally measured yields, is
   \end{center}
   \begin{equation*}
-    N_i^-\propto F_i + r_B^2\bar{F_i} + 2r_B\sqrt{F_i\bar{F_i}}\big(x_-c_i - y_-s_i\big)
+    N_i^-\propto F_i + r_B^2\bar{F_i} + 2\sqrt{F_i\bar{F_i}}\big(x_-c_i - y_-s_i\big)
   \end{equation*}
   \vspace{-0.7cm}
   \begin{center}
@@ -685,7 +685,7 @@
       \begin{block}{\centering Bin yield}
         \vspace{-0.5cm}
         \begin{equation*}
-          N_i^-\propto F_i + r_B^2\bar{F_i} + 2r_B\sqrt{F_i\bar{F_i}}\big(x_-c_i - y_-s_i\big)
+          N_i^-\propto F_i + r_B^2\bar{F_i} + 2\sqrt{F_i\bar{F_i}}\big(x_-c_i - y_-s_i\big)
         \end{equation*}
       \end{block}
     \end{minipage}
@@ -960,7 +960,7 @@
   \vspace{0.0cm}
   {\large Back to our yield formula:}
   \begin{equation*}
-    N_i^-\propto F_i + r_B^2\bar{F_i} + 2r_B\sqrt{F_i\bar{F_i}}\big(x_-c_i - y_-s_i\big)
+    N_i^-\propto F_i + r_B^2\bar{F_i} + 2\sqrt{F_i\bar{F_i}}\big(x_-c_i - y_-s_i\big)
   \end{equation*}
   \vspace{-0.3cm}
   \begin{itemize}
@@ -1016,160 +1016,6 @@
   \begin{center}
     $Q = 0.90$ \\
     Bins $i < 0$ on top, $i > 0$ below
-  \end{center}
-\end{frame}
-
-\section{The LHCb detector}
-\begin{frame}{The LHCb detector}
-  \begin{center}
-    {\huge The LHCb detector}
-  \end{center}
-\end{frame}
-
-\begin{frame}{The LHCb detector}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 0.7\textwidth]{Plots/LHCbDetector.png}
-  \end{figure}
-  \begin{center}
-    \Large LHCb: A beauty experiment with a lot of charm
-  \end{center}
-\end{frame}
-
-\begin{frame}{The LHCb detector}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 0.7\textwidth]{Plots/LHCbDetector_VELO.png}
-  \end{figure}
-  \begin{center}
-    \Large VELO: Vertex locator to reconstruct $B$ and $D$ vertices
-  \end{center}
-\end{frame}
-
-\begin{frame}{The LHCb detector}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 0.7\textwidth]{Plots/LHCbDetector_RICH.png}
-  \end{figure}
-  \begin{center}
-    \Large RICH: Identify $B$ and $D$ daughter particles
-  \end{center}
-\end{frame}
-
-\section{Event selection}
-\begin{frame}{Event selection}
-  \begin{center}
-    {\huge Event selection}
-  \end{center}
-\end{frame}
-
-\begin{frame}{Event selection}
-  \begin{center}
-    \Large Decay topology
-  \end{center}
-  \vspace{0.5cm}
-  \begin{columns}
-    \begin{column}{0.4\textwidth}
-      Look for:
-      \begin{enumerate}
-        \item{5 charged tracks}
-        \item{Displaced $B$ vertex}
-        \item{1 bachelor track with good PID information}
-        \item{Displaced $D$ vertex with invariant mass within $\SI{25}{\mega\eV}$ of the $D^0$ mass}
-      \end{enumerate}
-    \end{column}
-    \begin{column}{0.6\textwidth}
-      \begin{figure}[H]
-        \centering
-        \begin{fmffile}{fgraph/fgraph_DecayTopology}
-          \setlength{\unitlength}{0.4cm}
-          \begin{fmfgraph*}(9,9)
-            \fmfleft{i1,i2,i3}
-            \fmfv{decor.shape=circle,decor.filled=shaded,decor.size=0.2w,label=IP,label.angle=180,label.dist=0.5cm}{i1}
-            \fmfright{o1,o2,o3,o4,o5}
-            \fmflabel{$\pi^+$}{o1}
-            \fmflabel{$\pi^-$}{o2}
-            \fmflabel{$K^+$}{o3}
-            \fmflabel{$K^-$}{o4}
-            \fmflabel{$K^-$}{o5}
-            \fmf{phantom,tension=1.5}{i3,v1}
-            \fmf{dashes,tension=2.5}{i1,v1}
-            \fmfv{decor.shape=circle,decor.filled=shaded,decor.size=0.15w,label=$B^-$,label.angle=110,label.dist=0.5cm}{v1}
-            \fmf{plain}{v1,o5}
-            \fmf{dashes,tension=1.5}{v1,v2}
-            \fmfv{decor.shape=circle,decor.filled=shaded,decor.size=0.15w,label=$D$,label.angle=-110,label.dist=0.5cm}{v2}
-            \fmf{plain}{v2,o1}
-            \fmf{plain}{v2,o2}
-            \fmf{plain}{v2,o3}
-            \fmf{plain}{v2,o4}
-          \end{fmfgraph*}
-        \end{fmffile}
-        \vspace{0.5cm}
-      \end{figure}
-    \end{column}
-  \end{columns}
-\end{frame}
-
-\begin{frame}{Event selection}
-  \begin{center}
-    \large Offline selection has 3 stages
-  \end{center}
-  Initial cuts:
-  \begin{enumerate}
-    \item{Invariant $D$ and $B$ mass cuts}
-    \item{Momentum and RICH requirements}
-  \end{enumerate}
-  Boosted Decision Tree (BDT)
-  \begin{itemize}
-    \item{Signal sample: Simulation samples}
-    \item{Background sample: Upper $B$ mass sideband}
-    \item{28 variables describing kinematics, impact parameters, vertex quality}
-  \end{itemize}
-  Final selection
-  \begin{enumerate}
-    \item{$D$ Flight distance}
-    \item{Particle Identification of bachelor}
-    \item{$K_S^0$ veto}
-  \end{enumerate}
-\end{frame}
-
-\begin{frame}{Event selection}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 1.0\textwidth]{Plots/overtrain_BDTG.png}
-  \end{figure}
-  \begin{center}
-    BDT is highly efficient at rejecting combinatorial background
-  \end{center}
-\end{frame}
-
-\begin{frame}{Event selection}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 1.0\textwidth]{Plots/overtrain_BDTG_log.png}
-  \end{figure}
-  \begin{center}
-    Very important, combinatorial background is large in multi-body decays
-  \end{center}
-\end{frame}
-
-\begin{frame}{Event selection}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 1.0\textwidth]{Plots/BmassStripping.pdf}
-  \end{figure}
-  \begin{center}
-    The invariant $B$ mass, after online selection, show no visible signal...
-  \end{center}
-\end{frame}
-
-\begin{frame}{Event selection}
-  \begin{figure}
-    \centering
-    \includegraphics[width = 1.0\textwidth]{Plots/BmassFinalSelection.pdf}
-  \end{figure}
-  \begin{center}
-    ... but the BDT does a great job cleaning this up!
   \end{center}
 \end{frame}
 
@@ -1342,7 +1188,7 @@
 
 \begin{frame}{Strong phase analysis of $D^0\to K^+K^-\pi^+\pi^-$ at BESIII}
   \begin{itemize}
-    \item{Double-tag analysis: Reconstruct signal mode ($KK\pi\pi$) and known tag mode}
+    \item{Double-tag analysis: Reconstruct signal ($KK\pi\pi$) and tag mode}
     \item{$D^0\bar{D^0}$ pair is quantum correlated}
   \end{itemize}
   \begin{figure}[H]
@@ -1517,14 +1363,15 @@
     Quantum correlation can modify the effective branching fraction:
   \end{center}
   \begin{equation*}
-    \frac{N^{\rm DT}}{N^{\rm ST}} = \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm(2F_+ - 1)\big)
+    \frac{N^{\rm DT}}{N^{\rm ST}} = \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm c_1\big)
   \end{equation*}
   \begin{figure}
     \includegraphics[width = 0.50\textwidth]{Plots/CPeven_fraction_combination_CPtags.png}
     \caption*{\tiny arXiv:2212.06489}
   \end{figure}
+  \vspace{-0.3cm}
   \begin{center}
-    Interpret $2F_+ - 1$ as the amplitude averaged cosine of $\delta_D$
+    $c_1$ is the cosine of the strong phase, averaged over the \underline{whole} phase space
   \end{center}
 \end{frame}
 
@@ -1532,18 +1379,21 @@
   \begin{center}
     Our next task is to change the phase space inclusive analysis,
   \end{center}
-  \begin{equation*}
-    \frac{N^{\rm DT}}{N^{\rm ST}} = \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm(2F_+ - 1)\big)
-  \end{equation*}
+  \vspace{-0.5cm}
+  \begin{align*}
+    \frac{N^{\rm DT}}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\quad\textnormal{(flavour tag)} \\
+    \frac{N^{\rm DT}}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm c_1\big)\quad\textnormal{(CP tag)}
+  \end{align*}
+  \vspace{-1.0cm}
   \begin{center}
     into a binned phase space analysis:
   \end{center}
-  \vspace{-0.2cm}
+  \vspace{-0.6cm}
   \begin{align*}
-    \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)K_i\quad\textnormal{(flavour tag)} \\
+    \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)F_i\quad\textnormal{(flavour tag)} \\
     \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\big(F_i + \bar{F_i} \pm 2\sqrt{F_i\bar{F_i}}c_i\big)\quad\textnormal{(CP tag)}
   \end{align*}
-  \vspace{-0.2cm}
+  \vspace{-0.6cm}
   \begin{enumerate}
     \item{$F_i$: Measure using flavour tags}
     \item{$c_i$: Determine from asymmetry of $C\!P$ even and odd tags}
@@ -1559,18 +1409,21 @@
   \begin{center}
     Our next task is to change the phase space inclusive analysis,
   \end{center}
-  \begin{equation*}
-    \frac{N^{\rm DT}}{N^{\rm ST}} = \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm(2F_+ - 1)\big)
-  \end{equation*}
+  \vspace{-0.5cm}
+  \begin{align*}
+    \frac{N^{\rm DT}}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\quad\textnormal{(flavour tag)} \\
+    \frac{N^{\rm DT}}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm c_1\big)\quad\textnormal{(CP tag)}
+  \end{align*}
+  \vspace{-1.0cm}
   \begin{center}
     into a binned phase space analysis:
   \end{center}
-  \vspace{-0.2cm}
+  \vspace{-0.6cm}
   \begin{align*}
-    \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)K_i\quad\textnormal{(flavour tag)} \\
+    \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)F_i\quad\textnormal{(flavour tag)} \\
     \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\big(F_i + \bar{F_i} \pm 2\sqrt{F_i\bar{F_i}}c_i\big)\quad\textnormal{(CP tag)}
   \end{align*}
-  \vspace{-0.2cm}
+  \vspace{-0.6cm}
   \begin{enumerate}
     \item{$F_i$: Measure using flavour tags}
     \item{$c_i$: Determine from asymmetry of $C\!P$ even and odd tags}
@@ -1617,7 +1470,7 @@
   \begin{enumerate}
     \setlength\itemsep{1.0em}
     \setcounter{enumi}{4}
-    \item{The fit results, using model predicted strong phases, were found to be inconsistent with the current LHCb combination}
+    \item{The fit results, using model predicted strong phases, were found to have a $3\sigma$ tension with the current LHCb combination}
     \item{External inputs from charm factories, such as BESIII, are crucial to constrain charm strong phases}
     \item{Combined, the LHCb and BESIII measurement will lead to the first measurement of $\gamma$ in this channel}
     \item{Work is ongoing in similar four-body modes:}
@@ -1629,6 +1482,165 @@
   \vspace{0.2cm}
   \begin{center}
     {\huge Thanks for your attention!}
+  \end{center}
+\end{frame}
+
+\section{Backup slides}
+\begin{frame}{Backup slides}
+  \begin{center}
+    {\huge Backup slides}
+  \end{center}
+\end{frame}
+
+\begin{frame}{The LHCb detector}
+  \begin{center}
+    {\huge The LHCb detector}
+  \end{center}
+\end{frame}
+
+\begin{frame}{The LHCb detector}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 0.7\textwidth]{Plots/LHCbDetector.png}
+  \end{figure}
+  \begin{center}
+    \Large LHCb: A beauty experiment with a lot of charm
+  \end{center}
+\end{frame}
+
+\begin{frame}{The LHCb detector}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 0.7\textwidth]{Plots/LHCbDetector_VELO.png}
+  \end{figure}
+  \begin{center}
+    \Large VELO: Vertex locator to reconstruct $B$ and $D$ vertices
+  \end{center}
+\end{frame}
+
+\begin{frame}{The LHCb detector}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 0.7\textwidth]{Plots/LHCbDetector_RICH.png}
+  \end{figure}
+  \begin{center}
+    \Large RICH: Identify $B$ and $D$ daughter particles
+  \end{center}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{center}
+    {\huge Event selection}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{center}
+    \Large Decay topology
+  \end{center}
+  \vspace{0.5cm}
+  \begin{columns}
+    \begin{column}{0.4\textwidth}
+      Look for:
+      \begin{enumerate}
+        \item{5 charged tracks}
+        \item{Displaced $B$ vertex}
+        \item{1 bachelor track with good PID information}
+        \item{Displaced $D$ vertex with invariant mass within $\SI{25}{\mega\eV}$ of the $D^0$ mass}
+      \end{enumerate}
+    \end{column}
+    \begin{column}{0.6\textwidth}
+      \begin{figure}[H]
+        \centering
+        \begin{fmffile}{fgraph/fgraph_DecayTopology}
+          \setlength{\unitlength}{0.4cm}
+          \begin{fmfgraph*}(9,9)
+            \fmfleft{i1,i2,i3}
+            \fmfv{decor.shape=circle,decor.filled=shaded,decor.size=0.2w,label=IP,label.angle=180,label.dist=0.5cm}{i1}
+            \fmfright{o1,o2,o3,o4,o5}
+            \fmflabel{$\pi^+$}{o1}
+            \fmflabel{$\pi^-$}{o2}
+            \fmflabel{$K^+$}{o3}
+            \fmflabel{$K^-$}{o4}
+            \fmflabel{$K^-$}{o5}
+            \fmf{phantom,tension=1.5}{i3,v1}
+            \fmf{dashes,tension=2.5}{i1,v1}
+            \fmfv{decor.shape=circle,decor.filled=shaded,decor.size=0.15w,label=$B^-$,label.angle=110,label.dist=0.5cm}{v1}
+            \fmf{plain}{v1,o5}
+            \fmf{dashes,tension=1.5}{v1,v2}
+            \fmfv{decor.shape=circle,decor.filled=shaded,decor.size=0.15w,label=$D$,label.angle=-110,label.dist=0.5cm}{v2}
+            \fmf{plain}{v2,o1}
+            \fmf{plain}{v2,o2}
+            \fmf{plain}{v2,o3}
+            \fmf{plain}{v2,o4}
+          \end{fmfgraph*}
+        \end{fmffile}
+        \vspace{0.5cm}
+      \end{figure}
+    \end{column}
+  \end{columns}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{center}
+    \large Offline selection has 3 stages
+  \end{center}
+  Initial cuts:
+  \begin{enumerate}
+    \item{Invariant $D$ and $B$ mass cuts}
+    \item{Momentum and RICH requirements}
+  \end{enumerate}
+  Boosted Decision Tree (BDT)
+  \begin{itemize}
+    \item{Signal sample: Simulation samples}
+    \item{Background sample: Upper $B$ mass sideband}
+    \item{28 variables describing kinematics, impact parameters, vertex quality}
+  \end{itemize}
+  Final selection
+  \begin{enumerate}
+    \item{$D$ Flight distance}
+    \item{Particle Identification of bachelor}
+    \item{$K_S^0$ veto}
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 1.0\textwidth]{Plots/overtrain_BDTG.png}
+  \end{figure}
+  \begin{center}
+    BDT is highly efficient at rejecting combinatorial background
+  \end{center}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 1.0\textwidth]{Plots/overtrain_BDTG_log.png}
+  \end{figure}
+  \begin{center}
+    Very important, combinatorial background is large in multi-body decays
+  \end{center}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 1.0\textwidth]{Plots/BmassStripping.pdf}
+  \end{figure}
+  \begin{center}
+    The invariant $B$ mass, after online selection, show no visible signal...
+  \end{center}
+\end{frame}
+
+\begin{frame}{Event selection}
+  \begin{figure}
+    \centering
+    \includegraphics[width = 1.0\textwidth]{Plots/BmassFinalSelection.pdf}
+  \end{figure}
+  \begin{center}
+    ... but the BDT does a great job cleaning this up!
   \end{center}
 \end{frame}
 
