@@ -648,7 +648,7 @@
     \begin{minipage}{6cm}
       \begin{block}{\centering Amplitude averaged strong phase}
         \centering
-        $c_i\equiv\frac{\int_i\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert\lvert\mathcal{A}_{\bar{D^0}\lvert}\cos(\delta_D(\Phi))}{\sqrt{\int\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert^2\int\mathrm{d}\Phi\lvert\mathcal{A}_{\bar{D^0}}\lvert^2}}$
+        $c_i\equiv\frac{\int_i\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert\lvert\mathcal{A}_{\bar{D^0}}\lvert\cos(\delta_D(\Phi))}{\sqrt{\int\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert^2\int\mathrm{d}\Phi\lvert\mathcal{A}_{\bar{D^0}}\lvert^2}}$
       \end{block}
     \end{minipage}
   \end{center}
@@ -673,7 +673,7 @@
     \begin{minipage}{6cm}
       \begin{block}{\centering Amplitude averaged strong phase}
         \centering
-        $c_i\equiv\frac{\int_i\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert\lvert\mathcal{A}_{\bar{D^0}\lvert}\cos(\delta_D(\Phi))}{\sqrt{\int\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert^2\int\mathrm{d}\Phi\lvert\mathcal{A}_{\bar{D^0}}\lvert^2}}$
+        $c_i\equiv\frac{\int_i\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert\lvert\mathcal{A}_{\bar{D^0}}\lvert\cos(\delta_D(\Phi))}{\sqrt{\int\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert^2\int\mathrm{d}\Phi\lvert\mathcal{A}_{\bar{D^0}}\lvert^2}}$
       \end{block}
     \end{minipage}
   \end{center}
@@ -935,7 +935,7 @@
   \vspace{0.0cm}
   {\large Back to the amplitude averaged strong phase:}
   \begin{equation*}
-    c_i\equiv\frac{\int_i\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert\lvert\mathcal{A}_{\bar{D^0}\lvert}\cos(\delta_D(\Phi))}{\sqrt{\int\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert^2\int\mathrm{d}\Phi\lvert\mathcal{A}_{\bar{D^0}}\lvert^2}}
+    c_i\equiv\frac{\int_i\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert\lvert\mathcal{A}_{\bar{D^0}}\lvert\cos(\delta_D(\Phi))}{\sqrt{\int\mathrm{d}\Phi\lvert\mathcal{A}_{D^0}\lvert^2\int\mathrm{d}\Phi\lvert\mathcal{A}_{\bar{D^0}}\lvert^2}}
   \end{equation*}
   \begin{itemize}
     \setlength\itemsep{0.5em}
@@ -1173,7 +1173,7 @@
 
 \begin{frame}{Strong phase analysis of $D^0\to K^+K^-\pi^+\pi^-$ at BESIII}
   \begin{itemize}
-    \item{BESIII: Beijing Spectrometer III, a detector at the Beijing Electron-Position Collider II, located at IHEP}
+    \item{BESIII: Beijing Spectrometer III, a detector at the Beijing Electron-Positron Collider II, located at IHEP}
     \item{$e^+e^-$ collider at the $\psi(3770)\to D^0\bar{D^0}$ threshold}
     \begin{itemize}
       \item{2010-2011: $\SI{3}{\per\femto\barn}$}
@@ -1397,6 +1397,36 @@
   \begin{enumerate}
     \item{$F_i$: Measure using flavour tags}
     \item{$c_i$: Determine from asymmetry of $C\!P$ even and odd tags}
+    \item[]{\phantom{$s_i$: Analogous to $c_i$, but requires binning of tag mode}}
+  \end{enumerate}
+  \vspace{-7.0cm}
+  \begin{center}
+    \phantom{\rotatebox{45}{\Huge\colorbox{white}{\framebox{Work in progress!}}}}
+  \end{center}
+\end{frame}
+
+\begin{frame}{Strong phase analysis of $D^0\to K^+K^-\pi^+\pi^-$ at BESIII}
+  \begin{center}
+    Our next task is to change the phase space inclusive analysis,
+  \end{center}
+  \vspace{-0.5cm}
+  \begin{align*}
+    \frac{N^{\rm DT}}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\quad\textnormal{(flavour tag)} \\
+    \frac{N^{\rm DT}}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\big(1\pm c_1\big)\quad\textnormal{(CP tag)}
+  \end{align*}
+  \vspace{-1.0cm}
+  \begin{center}
+    into a binned phase space analysis:
+  \end{center}
+  \vspace{-0.6cm}
+  \begin{align*}
+    \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)F_i\quad\textnormal{(flavour tag)} \\
+    \frac{N^{\rm DT}_i}{N^{\rm ST}} =& \mathcal{B}(D^0\to KK\pi\pi)\big(F_i + \bar{F_i} \pm 2\sqrt{F_i\bar{F_i}}c_i\big)\quad\textnormal{(CP tag)}
+  \end{align*}
+  \vspace{-0.6cm}
+  \begin{enumerate}
+    \item{$F_i$: Measure using flavour tags}
+    \item{$c_i$: Determine from asymmetry of $C\!P$ even and odd tags}
     \item{$s_i$: Analogous to $c_i$, but requires binning of tag mode}
   \end{enumerate}
   \vspace{-7.0cm}
@@ -1448,7 +1478,7 @@
       \centering
       \begin{enumerate}
         \setcounter{enumi}{3}
-        \item{However, amplitude model predictions of $\delta_D$ are \underline{wrong}}
+        \item{However, amplitude model predictions of $\delta_D$ \underline{should not be trusted}}
       \end{enumerate}
     \end{column}
     \begin{column}{0.5\textwidth}
@@ -1472,7 +1502,7 @@
     \setcounter{enumi}{4}
     \item{The fit results, using model predicted strong phases, were found to have a $3\sigma$ tension with the current LHCb combination}
     \item{External inputs from charm factories, such as BESIII, are crucial to constrain charm strong phases}
-    \item{Combined, the LHCb and BESIII measurement will lead to the first measurement of $\gamma$ in this channel}
+    \item{Combined, the LHCb and BESIII analyses will lead to the first model independent measurement of $\gamma$ in this channel}
     \item{Work is ongoing in similar four-body modes:}
     \begin{itemize}
       \item{$D^0\to\pi^+\pi^-\pi^+\pi^-$}
